@@ -17,7 +17,7 @@ const AlgoHealth = styled.span`
   color: black;
 `;
 
-function PitchPage() {
+function LandingPage() {
   return (
     <div className="App">
       <Title>
@@ -28,16 +28,8 @@ function PitchPage() {
         <span style={{ textDecoration: "underline" }}>AI based</span> nutrition
         management app!
       </Subtitle>
-      <h2>
-        <a
-          href="https://appw.pitchdeck.io/docs/?plKFAu"
-          style={{ textDecorationColor: "#10c7cd", color: "black" }}
-        >
-          The Pitch Deck
-        </a>
-      </h2>
     </div>
   );
 }
 
-export default PitchPage;
+export default LandingPage;
