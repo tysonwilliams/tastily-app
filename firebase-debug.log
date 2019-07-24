@@ -1,0 +1,29 @@
+[debug] [2019-07-23T23:28:36.345Z] ----------------------------------------------------------------------
+[debug] [2019-07-23T23:28:36.347Z] Command:       /usr/local/Cellar/node/11.1.0/bin/node /Users/twilliams/dev/tastily/tastily-app/node_modules/.bin/firebase serve
+[debug] [2019-07-23T23:28:36.347Z] CLI Version:   7.1.1
+[debug] [2019-07-23T23:28:36.348Z] Platform:      darwin
+[debug] [2019-07-23T23:28:36.348Z] Node Version:  v11.1.0
+[debug] [2019-07-23T23:28:36.349Z] Time:          Tue Jul 23 2019 17:28:36 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-07-23T23:28:36.349Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-23T23:28:36.365Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-23T23:28:36.365Z] > authorizing via signed-in user
+[debug] [2019-07-23T23:28:36.365Z] [iam] checking project tastily-app for permissions ["firebase.projects.get"]
+[debug] [2019-07-23T23:28:36.367Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-07-23T23:28:36.368Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-07-23T23:28:36.731Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-23T23:28:36.751Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tastily-app:testIamPermissions  
+
+[debug] [2019-07-23T23:28:37.148Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-23T23:28:37.150Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tastily-app  
+ 
+[debug] [2019-07-23T23:28:37.420Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/twilliams/dev/tastily/tastily-app'...
+[info] 
+[debug] [2019-07-23T23:28:37.424Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tastily-app/webApps/-/config  
+ 
+[debug] [2019-07-23T23:28:38.016Z] <<< HTTP RESPONSE 200
+[info] i  hosting[tastily]: Serving hosting files from: build
+[info] ✔  hosting[tastily]: Local server: http://localhost:5000

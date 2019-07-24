@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import SignupForm from '../SignupForm';
+
 const Title = styled.h1`
   color: #10c7cd;
 `;
@@ -28,6 +30,7 @@ function LandingPage() {
         <span style={{ textDecoration: "underline" }}>AI based</span> nutrition
         management app!
       </Subtitle>
+      <SignupForm />
     </div>
   );
 }
