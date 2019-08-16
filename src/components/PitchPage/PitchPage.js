@@ -30,7 +30,7 @@ function PitchPage() {
       </Subtitle>
       <h2>
         <a
-          href="https://appw.pitchdeck.io/docs/?lyE2Kb"
+          href="https://appw.pitchdeck.io/docs/?VlPY9q"
           style={{ textDecorationColor: "#10c7cd", color: "black" }}
         >
           The Pitch Deck
