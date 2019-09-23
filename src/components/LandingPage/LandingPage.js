@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+// import Signup from '@bit/rajatk16.hooks-form.signup';
+
+// import 'bulma/css/bulma.css';
 
 import SignupForm from '../SignupForm';
 
@@ -15,7 +18,7 @@ const Tastily = styled.span`
   color: #10c7cd;
 `;
 
-const AlgoHealth = styled.span`
+const ThetaNutrition = styled.span`
   color: black;
 `;
 
@@ -23,7 +26,7 @@ function LandingPage() {
   return (
     <div className="App">
       <Title>
-        Tastily / <AlgoHealth>Algo Health</AlgoHealth>
+        Tastily / <ThetaNutrition>Theta Nutrition</ThetaNutrition>
       </Title>
       <Subtitle>
         Welcome to the future site of <Tastily>Tastily</Tastily>, the{" "}

@@ -13,7 +13,7 @@ const Tastily = styled.span`
   color: #10c7cd;
 `;
 
-const AlgoHealth = styled.span`
+const ThetaNutrition = styled.span`
   color: black;
 `;
 
@@ -21,7 +21,7 @@ function PitchPage() {
   return (
     <div className="App">
       <Title>
-        Tastily / <AlgoHealth>Algo Health</AlgoHealth>
+        Tastily / <ThetaNutrition>Theta Nutrition</ThetaNutrition>
       </Title>
       <Subtitle>
         Welcome to the future site of <Tastily>Tastily</Tastily>, the{" "}
